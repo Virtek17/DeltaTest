@@ -1,0 +1,98 @@
+/* App.css */
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  font-size: 14px;
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+}
+
+td,
+th {
+  background-color: #f0f0f0;
+}
+
+.td {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-table thead {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.data-table tr:hover {
+  background-color: #f1f5ff;
+  cursor: pointer;
+}
+
+.data-table .selected {
+  background-color: #e6f0ff;
+}
+
+.red {
+  color: #d93025;
+  font-weight: bold;
+}
+
+.green {
+  color: #188038;
+  font-weight: bold;
+}
+
+.gray {
+  color: #777;
+}
+
+.blue {
+  background-color: #9cbbea59;
+}
+
+.chart-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.today-cell {
+  background-color: #bbe0fa; /* светло-синий */
+}
+/* Разница: бледно-зелёный фон */
+.diff-cell.green {
+  background-color: #e0ffe0;
+}
+
+/* Разница: бледно-красный фон */
+.diff-cell.red {
+  background-color: #ffe0e0;
+  color: #777;
+  font-weight: normal;
+}
+
+/* Разница: серый (по желанию) */
+.diff-cell.gray {
+  background-color: #f0f0f0;
+}
+
+.center {
+  text-align: center;
+}
+td span {
+  padding-left: 20px;
+}
